@@ -1,7 +1,6 @@
 <script setup>
 import { onMounted } from 'vue';
-import Home from './components/Home.vue'
-
+import Layout from './components/Layout.vue';
 onMounted(() => {
   document.title = 'Page name';
   document.documentElement.lang = 'es';
@@ -13,7 +12,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <Home msg="Vite + Vue" />
+  <Layout></Layout>
 </template>
 
 <style scoped>
