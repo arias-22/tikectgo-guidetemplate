@@ -18,7 +18,7 @@ const verifyCode = () => {
 
 <template>
   <!-- <div class="absolute inset-0 -z-10 bg-[url('https://tecnne.com/wp-content/uploads/2023/10/coliseo-romano-copyyana-marudova.jpg')] bg-cover bg-start h-screen"></div> -->
-  <div class="absolute inset-0 -z-10 bg-[url('assets/image.png')] bg-cover bg-center h-screen"></div>
+  <div class="absolute inset-0 -z-10 bg-[url('assets/background.png')] bg-cover bg-center h-screen"></div>
   <!-- degradado oscuro del fondo -->
   <div class="absolute -z-10 inset-x-0 bottom-0 h-5/6 bg-gradient-to-t from-black to-transparent opacity-80"></div> 
   <div class="grid grid-cols-1 gap-4 h-[100vh] content-end">

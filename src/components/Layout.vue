@@ -9,14 +9,12 @@ const user = ref(appStore.user);
 
 onMounted(() => {
     user.value = appStore.user;
-    console.log('user: ', user.value);
 });
 
 watch(
     () => appStore.user,
     (newUser) => {
         user.value = newUser;
-        console.log('user: ', user.value);
     }
 );
 

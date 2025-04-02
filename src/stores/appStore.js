@@ -4,6 +4,7 @@ export const useAppStore = defineStore('app', {
     state: () => ({
         isLoading: false,
         user: null,
+        currentView: null,
     }),
     getters: {
         getIsLoading(state) {
@@ -11,6 +12,9 @@ export const useAppStore = defineStore('app', {
         },
         getUser(state) {
             return state.user;
+        },
+        getCurrentView(state) {
+            return state.currentView;
         },
 
     },
@@ -24,6 +28,9 @@ export const useAppStore = defineStore('app', {
         clearUser() {
             this.user = null;
         },
-        
+        setCurrentView(currentView) {
+            this.currentView = currentView;
+        },
+
     }
 });
